@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
@@ -10,5 +10,12 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
+  // Angular Language Service
+  // Console
+  // Breakpoints
   title = 'NgTraining';
+
+  trigger() {
+    console.log("hello world");
+  }
 }
