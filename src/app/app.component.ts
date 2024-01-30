@@ -11,4 +11,9 @@ import { RouterModule, RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'NgTraining';
+  // npx init playwright@latest
+  // npx playwright test
+  // npx show-report
+  // npx playwright test --ui
+  // npx playwright codegen
 }
