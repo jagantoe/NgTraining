@@ -11,4 +11,6 @@ import { RouterModule, RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'NgTraining';
+  // https://testing-angular.com/introduction/#introduction
+  // npx cypress open
 }
